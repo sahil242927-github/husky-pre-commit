@@ -2,4 +2,4 @@
 . "$(dirname -- "$0")/_/husky.sh"
 
 echo "sahil"
-yarn lint-staged
+yarn lint
