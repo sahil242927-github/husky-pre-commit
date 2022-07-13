@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint": "yarn lint-staged"
+    "lint": "npm lint-staged"
   },
   "eslintConfig": {
     "extends": [
@@ -49,14 +49,14 @@
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
-      "yarn eslint",
-      "yarn prettier --write",
-      "yarn test --watchAll=false --findRelatedTests --bail"
+      "npm eslint",
+      "npm prettier --write",
+      "npm test --watchAll=false --findRelatedTests --bail"
     ]
   },
-  "husky" : {
-    "hooks" : {
-      "pre-push" : "yarn lint"
+  "husky": {
+    "hooks": {
+      "pre-push": "npm lint"
     }
   }
 }
