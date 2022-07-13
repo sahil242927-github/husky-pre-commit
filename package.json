@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint": "yarn lint-staged"
+    "lint": "eslint ."
   },
   "eslintConfig": {
     "extends": [
@@ -45,7 +45,7 @@
   "devDependencies": {
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
-    "prettier": "^2.7.1"
+         "prettier": "^2.7.1"
   },
   "lint-staged": {
     "**/*.{js,jsx,ts,tsx}": [
@@ -56,7 +56,7 @@
   },
   "husky" : {
     "hooks" : {
-      "pre-push" : "yarn lint"
+      "pre-push" : "npm run lint"
     }
   }
 }
