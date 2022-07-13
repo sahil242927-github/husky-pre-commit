@@ -52,5 +52,10 @@
       "yarn prettier --write",
       "yarn test --watchAll=false --findRelatedTests --bail"
     ]
+  },
+  "husky" : {
+    "hooks" : {
+      "pre-push" : "yarn lint-staged"
+    }
   }
 }
