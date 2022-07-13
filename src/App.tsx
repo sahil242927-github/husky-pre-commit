@@ -10,6 +10,7 @@ function App() {
           Edit <code>src/App.tsx</code> and save to reload. added pre push hook
           <span>Test</span>
           <span>Test</span>
+          <span>Test</span>
         </p>
         <a
           className="App-link"
