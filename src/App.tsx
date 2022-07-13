@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload. added pre push hooks
+          Edit <code>src/App.tsx</code> and save to reload. added pre push hook
         </p>
         <a
           className="App-link"
