@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prepare": "husky install",
-    "lint": "npm lint-staged"
+    "lint": "lint-staged"
   },
   "eslintConfig": {
     "extends": [
